@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  div.container
+      h1= mensaje
+      div.container
+        h2 Crear Contacto
+        form(action="/create" method="POST")
+          p Nombre:
+            input(type="text" name="nombre" placeholder="")
+          input(type="submit")
+        form(action="/" method="GET")
+          input(type="submit" value="Ver contactos")
+        h5= result
+      div.container
+        h2 Ver Contactos
+        table.table.table-striped
+          for persona in personas
+              tr
+                td= persona.id
+                td
+                  a(href='/persona/'+persona.id) #{persona.nombre}

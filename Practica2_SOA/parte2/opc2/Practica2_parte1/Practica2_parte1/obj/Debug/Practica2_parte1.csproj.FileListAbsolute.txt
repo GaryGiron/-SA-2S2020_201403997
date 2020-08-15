@@ -1,0 +1,5 @@
+C:\Users\Gary\documents\visual studio 2012\Projects\Practica2_parte1\Practica2_parte1\bin\Practica2_parte1.dll
+C:\Users\Gary\documents\visual studio 2012\Projects\Practica2_parte1\Practica2_parte1\bin\Practica2_parte1.pdb
+C:\Users\Gary\documents\visual studio 2012\Projects\Practica2_parte1\Practica2_parte1\obj\Debug\Practica2_parte1.csprojResolveAssemblyReference.cache
+C:\Users\Gary\documents\visual studio 2012\Projects\Practica2_parte1\Practica2_parte1\obj\Debug\Practica2_parte1.dll
+C:\Users\Gary\documents\visual studio 2012\Projects\Practica2_parte1\Practica2_parte1\obj\Debug\Practica2_parte1.pdb
