@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1= title
+  div
+    form(action="/new_pedido" method="POST")
+      table.table.table-striped
+        tr
+          th 
+            p Cliente:
+          th 
+            input(type="text" name="cliente" placeholder="Ingrese nombre del cliente")
+        tr
+          th
+            input(type="submit" value="Crear Pedido" class="btn btn-success")
+          th
+            h2=mensaje
+  div
+    table.table.table-striped
+      tr
+        th
+          form(action="/repartidor_sts" method="GET")
+            input(type="submit" value="Verificar estado con Repartidor" class="btn btn-primary")
+        th
+          form(action="/rest_sts" method="GET")
+            input(type="submit" value="Verificar estado con Restaurante" class="btn btn-info")
+      

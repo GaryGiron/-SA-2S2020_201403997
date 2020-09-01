@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1= "Cambiar Status"
+  div
+    form(action="/cambiar" method="POST")
+      table.table.table-striped
+        tr
+          th 
+            p Nuevo Status:
+          th 
+            input(type="text" name="status" placeholder="Ingrese nombre del cliente")
+        tr
+          th
+            input(type="submit" value="Cambiar Status" class="btn btn-success")
+          th
+            h2=mensaje
+  div
+    form(action="/completado" method="GET")
+      table.table.table-striped
+        tr
+          th
+            input(type="submit" value="Entregar Orden" class="btn btn-success")
+          th
+            h2=mensaje
